@@ -91,3 +91,18 @@ def plot_line(df, x_col, y_col):
     plt.xlabel(x_col)
     plt.ylabel(y_col)
     plt.show()
+
+    # bar plot
+def plot_bar(df, col1, col2, hue=None, xtricks=None):
+    plt.figure(figsize=(20, 10))
+    if hue == None:
+        sns.barplot(data=df, x=col1, y=col2)
+    else:
+        sns.barplot(data=df, x=col1, y=col2, hue=hue)
+    plt.xlabel(col1, fontsize=15)
+    plt.ylabel(col2, fontsize=15)
+    plt.title(f"Comparision between {col1} and {col2}", fontsize=15)
+    if xtricks != None:
+        plt.xticks(df[col1].unique(), xtricks, rotation=90)
+    plt.xticks(rotation=90)
+    plt.show()
