@@ -1,0 +1,14 @@
+version: 2
+
+seeds:
+  ethiopian_medical_businesses:
+    messages:
+      +column_types:
+          id: bigint
+          date: timestamp
+          message: string
+          sender_id: bigint
+          views: int
+          time_of_day: string
+          post_hour: int
+          channel_name: string
