@@ -9,9 +9,9 @@ logging.basicConfig(filename='image_scraping.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Your API ID and hash obtained from my.telegram.org
-api_id = 20074916
-api_hash = 'd00871e9bae177f65512e9b58721e0a4'
-phone = '+251919116353'
+api_id = "API_ID"
+api_hash = 'API_HASH'
+phone = 'Phone'
 
 # Initialize the client
 client = TelegramClient('session_name', api_id, api_hash)
