@@ -118,31 +118,31 @@ Access the API endpoints:
 
 Scripts for scraping data from Telegram channels:
 
-    - src/Scrape_scripts/main.py
-    - src/Scrape_scripts/tg_data_scrape.py
-    - src/Scrape_scripts/tg_image_scrape.py
+- src/Scrape_scripts/main.py
+- src/Scrape_scripts/tg_data_scrape.py
+- src/Scrape_scripts/tg_image_scrape.py
 
 #### Object Detection and Processing
 
 Scripts for detecting objects in images and processing the results:
 
-    - src/model/detect_objects.py
-    - src/model/handler.py
-    - src/model/insert_data.py
-    - src/model/process_results.py
+- src/model/detect_objects.py
+- src/model/handler.py
+- src/model/insert_data.py
+- src/model/process_results.py
     - src/model/visualizer.py
 
 #### Notebooks
 
 Exploratory Data Analysis (EDA):
 
-    - notebooks/EDA.ipynb
+- notebooks/EDA.ipynb
 
 #### Web Service
 
 FastAPI web service for serving the processed data:
 
-    - src/web_service/main.py
+- src/web_service/main.py
 
 #### Database and Configuration
 
