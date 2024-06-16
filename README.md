@@ -130,7 +130,7 @@ Scripts for detecting objects in images and processing the results:
 - src/model/handler.py
 - src/model/insert_data.py
 - src/model/process_results.py
-    - src/model/visualizer.py
+- src/model/visualizer.py
 
 #### Notebooks
 
@@ -146,9 +146,9 @@ FastAPI web service for serving the processed data:
 
 #### Database and Configuration
 
-    - test.db: SQLite database file
-    - dbt_project.yml: DBT project configuration
-    - seeds.yml: Seeds configuration
+- test.db: SQLite database file
+- dbt_project.yml: DBT project configuration
+- seeds.yml: Seeds configuration
 
 ### License
 
